@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Name - Web Developer</title>
+    <link rel="stylesheet" href="DarkMode.css">
+</head>
+<body>
+
+    <header>
+        <h1>Portfolio</h1>
+        <p>Web Developer</p>
+        <button id="darkModeToggle"><img src="dark theme icon/moon.png"></button>
+    </header>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Voice To Text</h3>
+        </div>
+        <div class="project">
+            <h3>Text To Voice</h3>
+            <p></p>
+        </div>
+        
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>"Hi, my name is AbdulWadood. I'm a Web-Developer who is passionate about Development . In my free time, I enjoy To Code. I'm always looking for new ways to learn and grow, and I'm excited to connect with others who share my interests."</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Name. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        const darkModeToggle = document.getElementById('darkModeToggle');
+const body = document.body;
+
+darkModeToggle.addEventListener('click', () => {
+    body.classList.toggle('dark-mode');
+});
+
+    </script>
+</body>
+</html>

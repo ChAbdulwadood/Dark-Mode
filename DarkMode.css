@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    background-color: #fff;
+    color: #333;
+    padding: 8px 16px;
+    cursor: pointer;
+    border: none;
+}
+
+section {
+    margin: 20px;
+}
+
+.project {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.dark-mode body {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode header, .dark-mode button, .dark-mode .project, .dark-mode footer {
+    background-color: #fff;
+    color: #333;
+}
+#darkModeToggle{
+background-color:#333;
+}
